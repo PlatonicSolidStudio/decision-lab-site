@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decision Lab - Turn Life Decisions Into Experiments</title>
+    <meta name="description" content="Decision Lab is an iOS app with 11 financial calculators for housing, vehicle, wealth, family, and career decisions.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #1a1a1a; line-height: 1.6; }
+        a { color: #2563EB; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .hero {
+            background: linear-gradient(135deg, #1e3a5f 0%, #2563EB 100%);
+            color: #fff;
+            text-align: center;
+            padding: 80px 24px 60px;
+        }
+        .hero h1 { font-size: 2.8rem; font-weight: 700; margin-bottom: 16px; }
+        .hero p { font-size: 1.25rem; max-width: 600px; margin: 0 auto 32px; opacity: 0.9; }
+        .badge { display: inline-block; }
+        .badge img { height: 54px; }
+
+        .section { max-width: 720px; margin: 0 auto; padding: 56px 24px; }
+        .section h2 { font-size: 1.6rem; font-weight: 700; margin-bottom: 20px; }
+        .section p { margin-bottom: 16px; color: #333; }
+
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 28px; margin-top: 24px; }
+        .feature { background: #f7f9fc; border-radius: 12px; padding: 24px; }
+        .feature h3 { font-size: 1.1rem; margin-bottom: 8px; }
+        .feature p { font-size: 0.95rem; color: #555; margin-bottom: 0; }
+
+        .categories { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+        .tag { background: #e8f0fe; color: #2563EB; padding: 6px 14px; border-radius: 20px; font-size: 0.9rem; font-weight: 500; }
+
+        footer {
+            text-align: center;
+            padding: 32px 24px;
+            font-size: 0.85rem;
+            color: #888;
+            border-top: 1px solid #eee;
+        }
+        footer a { color: #888; }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Decision Lab</h1>
+        <p>Turn big life decisions into experiments. Run scenarios in seconds, compare options, and save your results.</p>
+        <a class="badge" href="https://apps.apple.com/app/id0000000000" aria-label="Download on the App Store">
+            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+        </a>
+    </div>
+
+    <div class="section">
+        <h2>11 Calculators. 5 Categories. One App.</h2>
+        <p>Each calculator is built around a real decision &mdash; not a formula. Enter your numbers, see results instantly, and save them as experiments you can revisit anytime.</p>
+        <div class="categories">
+            <span class="tag">Housing</span>
+            <span class="tag">Vehicle</span>
+            <span class="tag">Wealth</span>
+            <span class="tag">Family</span>
+            <span class="tag">Career</span>
+        </div>
+    </div>
+
+    <div class="section" style="padding-top: 0;">
+        <div class="features">
+            <div class="feature">
+                <h3>Key Drivers</h3>
+                <p>Every result highlights the 3 inputs that influence your outcome the most. Focus your attention where it counts.</p>
+            </div>
+            <div class="feature">
+                <h3>Side-by-Side Comparison</h3>
+                <p>Rent vs Buy, EV vs Gas, and Car TCO let you enter two scenarios and see a clear winner with charts over time.</p>
+            </div>
+            <div class="feature">
+                <h3>Your Assumptions</h3>
+                <p>Set your investment return, inflation rate, and more once. Every new experiment starts from your personal baseline.</p>
+            </div>
+            <div class="feature">
+                <h3>Save &amp; Iterate</h3>
+                <p>Save experiments, duplicate any result, tweak one variable, and see how the outcome changes.</p>
+            </div>
+            <div class="feature">
+                <h3>Fully Offline</h3>
+                <p>No account required. No data leaves your device. Every calculation runs locally.</p>
+            </div>
+            <div class="feature">
+                <h3>Built for iOS</h3>
+                <p>Native SwiftUI app designed for iPhone. Fast, smooth, and feels right at home.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 Platonic Solid Studio. All rights reserved.<br>
+        <a href="support.html">Support</a> &middot; <a href="privacy.html">Privacy Policy</a>
+    </footer>
+</body>
+</html>
